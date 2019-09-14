@@ -1,0 +1,84 @@
+section,.extra-info {
+    overflow: hidden;
+}
+
+nav{
+    box-shadow: 2px -2px 2px 2px #fff7f7;
+}
+
+#header{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRHomYz9QETr_De8ooN5TkzT6Cq9i5tFEL25ue62TblFXEGmTvK");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.black-overlay{
+    background-color: rgba(150, 149, 149,0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#fixed-menu {
+    position: fixed;
+    right: 20px;
+    top: 30%;
+    width: 60px;
+    z-index: 100;
+}
+
+.focus-heading {
+    width: 100%;
+    height: 100%;
+}
+
+.focus-heading button {
+    padding: 20px 35px;
+    border-radius: 50px;
+}
+
+.custom-padding{
+    padding: 40px 0px;
+}
+
+#content{
+    padding: 0px 90px;
+}
+
+#counter .counting {
+    font-size: 60px;
+}
+
+#footer ul li {
+    padding-bottom: 10px;
+}
+
+.icons{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin: 0px 0px 20px 32%;
+}
+.icons i{
+    font-size: 35px;
+    padding: 40px 0px 0px 8px;
+}
+.icons:hover i{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+.tick {
+    font-size: 25px;
+    background-color: #fff;
+    display: inline;
+    padding: 10px;
+    border-radius: 50px;    
+    position: absolute;
+    top: 80px;
+    left: 48%;
+}
